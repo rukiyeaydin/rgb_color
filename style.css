@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 60px;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border: 3px solid white;
+}
+p{
+    margin-bottom: 10px;
+}
+#red, #green, #blue{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+}
+#buton{
+    margin-right: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(198, 173, 138);
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#buton:hover{
+    background-color: rgb(227, 211, 211);
+}
+.buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.degistir{
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+.degistir:hover{
+    background-color: rgb(137, 137, 137);
+}
